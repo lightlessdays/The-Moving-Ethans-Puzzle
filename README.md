@@ -1,4 +1,4 @@
-# The Moving Ethans Puzzle
+# 🧩 The Moving Ethans Puzzle
 
 Ethan is a pre-defined third person character in Unity that can perform numerous actions. In our gameplay, we will make the population of Ethans perform numerous actions randomly. These include:
 1. Moving Forward
@@ -10,7 +10,7 @@ Ethan is a pre-defined third person character in Unity that can perform numerous
 
 Now, our goal is to design a genetic algorithm that will make a generation of Ethans travel the maximum distance on a strip by performing any one of the actions.
 
-## Solution of the puzzle
+## 💡Solution of the puzzle
 
 Turns of the solution of the puzzle is genetic algorithm. We will create several generations of Ethans that will last 8 seconds each. In the end, we will have a generation with all Ethans peforming the same action. That would be our peak generation. Our first generation starts with all of the Ethans doing random actions.
 
@@ -43,3 +43,6 @@ By the fourth or fifth generation, we will have a population of the most desirab
 ![Fourth Generation](https://user-images.githubusercontent.com/97734029/187889109-fd62685e-a9e3-4e95-82ca-8fefeb28ca7c.png)
 
 It must be noted that more the members, the less the number of generations required to reach the apex generation (or the generation with members of the most desirable traits).
+
+## ⚙️ Resources
+1. WebGL Player for Ethan Puzzle: [https://lightlessdays.github.io/The-Moving-Ethans-Puzzle/](https://lightlessdays.github.io/The-Moving-Ethans-Puzzle/)
