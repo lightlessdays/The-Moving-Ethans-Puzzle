@@ -46,3 +46,5 @@ It must be noted that more the members, the less the number of generations requi
 
 ## ⚙️ Resources
 1. WebGL Player for Ethan Puzzle: [https://lightlessdays.github.io/The-Moving-Ethans-Puzzle/](https://lightlessdays.github.io/The-Moving-Ethans-Puzzle/)
+2. Unity Project: [https://github.com/lightlessdays/The-Moving-Ethans-Puzzle/releases/tag/v2.0](https://github.com/lightlessdays/The-Moving-Ethans-Puzzle/releases/tag/v2.0)
+3. Ethan Unity Package: [https://drive.google.com/file/d/1_iSL2E0pI9LWwlZzBfuPu05ibqhcqhUC/view?usp=sharing](https://drive.google.com/file/d/1_iSL2E0pI9LWwlZzBfuPu05ibqhcqhUC/view?usp=sharing)
