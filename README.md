@@ -28,3 +28,15 @@ Based on this distance travelled, we sort Ethans into a list.
   List<GameObject> sortedList = population.OrderBy(o => o.GetComponent<Brain>().distanceTravelled).ToList();
 ```
 
+We then discard half of the list and breed the remaining half. This algorithm will keep on producing offsprings of only the most desirable members of the generation. This would lead to a production of a generation of only most desirable members.
+
+By the second generation, we can see that the members jumping and crouching on their spot decrease.
+![Second Generation](https://user-images.githubusercontent.com/97734029/187888537-632671b6-2945-4f0a-9a99-9a87749eda8e.png)
+
+By the third generation, we can observe that the members going backwards decrease.
+![Third Generation](https://user-images.githubusercontent.com/97734029/187888830-79780198-2279-491b-9816-55824a678146.png)
+
+By the fourth or fifth generation, we will have a population of the most desirable members- that only move forward... because moving forward will get them to cover the maximum distance on the strip.
+![Fourth Generation](https://user-images.githubusercontent.com/97734029/187889109-fd62685e-a9e3-4e95-82ca-8fefeb28ca7c.png)
+
+It must be noted that more the members, the less the number of generations required to reach the apex generation (or the generation with members of the most desirable traits).
